@@ -37,9 +37,7 @@ font-size: 12pt;
 clear:both;
 text-shadow: #666666 2px 2px 2px;
 margin: 0;
-}
-.accordian h3 {
-margin: 0;
+cursor: pointer;
 }
 
 #what {
@@ -52,6 +50,7 @@ font-size: 12pt;
 clear: both;
 text-shadow: #666666 2px 2px 2px;
 margin: 0;
+cursor: pointer;
 }
 
 #wanted {
@@ -64,6 +63,7 @@ font-family: 'Istok Web', sans-serif;
 font-size: 12pt;
 clear: both;
 text-shadow: #666666 2px 2px 2px;
+cursor: pointer;
 }
 
 #blog {
@@ -77,6 +77,7 @@ font-family: 'Istok Web', sans-serif;
 font-size: 12pt;
 clear: both;
 text-shadow: #666666 2px 2px 2px;
+cursor: pointer;
 }
 
 section {
