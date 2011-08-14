@@ -1,0 +1,122 @@
+body {
+margin-left:10%;
+margin-right:10%;
+
+}
+.accordion {
+background-color: #bdbdbd;
+border: none;
+width: 100%;
+font-family: 'Istok Web', sans-serif;
+font-size: 10pt;
+}
+
+.accordion p {
+padding: 0;
+
+}
+
+#sugar {
+padding-right: 2%;
+
+}
+
+#who {
+font-family: 'Istok Web', sans-serif;
+font-size: 12pt;
+text-align: left;
+}
+
+.accordion h1 {
+background-color: #f30ec5;
+color: white;
+text-align: right;
+padding-right: 2%;
+font-family: 'Istok Web', sans-serif;
+font-size: 12pt;
+clear:both;
+text-shadow: #666666 2px 2px 2px;
+margin: 0;
+}
+.accordian h3 {
+margin: 0;
+}
+
+#what {
+background-color: #f38a0e;
+color: white;
+text-align: right;
+padding-right: 2%;
+font-family: 'Istok Web', sans-serif;
+font-size: 12pt;
+clear: both;
+text-shadow: #666666 2px 2px 2px;
+margin: 0;
+}
+
+#wanted {
+margin: 0;
+background-color: #0ed4d6;
+color: white;
+text-align: right;
+padding-right: 2%;
+font-family: 'Istok Web', sans-serif;
+font-size: 12pt;
+clear: both;
+text-shadow: #666666 2px 2px 2px;
+}
+
+#blog {
+margin: 0;
+background-color: #76d60e;
+color: white;
+min-height: 20px;
+text-align: right;
+padding-right: 2%;
+font-family: 'Istok Web', sans-serif;
+font-size: 12pt;
+clear: both;
+text-shadow: #666666 2px 2px 2px;
+}
+
+section {
+border: none;
+font-family: 'Cabin', sans-serif;
+width: 39%;
+}
+
+footer {
+background-color: #868687;
+color: white;
+padding-top: 1%;
+padding-right: 2%;
+padding-bottom: 1%;
+font-family: 'Istok Web', sans-serif;
+font-size: 10pt;
+}
+
+footer img {
+width: 25%;
+float: right;
+}
+
+#phone {
+font-size: 20px;
+text-align: right;
+padding-right: 2%;
+float: right;
+clear: both;
+text-shadow: #666666 2px 2px 2px;
+}
+
+.leftFooter {
+padding-left: 4%;
+padding-top: 1%;
+font-size: 14px;
+text-shadow: #666666 2px 2px 2px;
+}
+
+#address {
+color: #f38a0e;
+font-size: 16px;
+}

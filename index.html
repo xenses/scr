@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/cass" href="css/standard.css" />
+    <script src="/js/blades.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet' type='text/css'>
+    <!--[if IE]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    
+    <script type="text/javascript" src="js/jquery.js"></script> 
+    
+    <script type="text/javascript"> 
+      $(document).ready(function(){
+
+      $(".accordion h1").addClass("active");
+      $(".accordion p:not(:first)").hide();
+
+      $(".accordion h3").click(function(){
+      
+      $(this).next("p").slideToggle("slow")
+      .siblings("p:visible").slideUp("slow");
+      $(this).toggleClass("active");
+      $(this).siblings("h3").removeClass("active");
+      });
+      $(".accordion h1").click(function(){
+      $(this).next("p").slideToggle("slow")
+      .siblings("p:visible").slideUp("slow");
+      $(this).toggleClass("active");
+      $(this).siblings("h3").removeClass("active");
+
+      });
+
+      })
+    </script> 
+    <!--  <script>var blades = new bladeset({'name':'content', 'x':40, 'hx':2, 'focus':'#000', 'blur':'#888'});
+          window.addEventListener("DOMContentLoaded",
+          function() { blades.init([['blade1',"WHAT'S IN YOUR BOX"],
+          ['blade2',"WANTED WE ARE"],
+          ['blade3',"WE'RE TALKING"]]); }, false);</script>
+      -->
+    <title> sugar-coated Radical</title>
+
+  </head>
+
+  <body>
+    <div class="accordion">
+      <h1 id="sugar">sugar-coated Radical</h1>
+      <p> 
+        <img src='images/boxOrchids.jpg'>
+        <img src='images/boxHazlenut.jpg'>
+        <img src='images/boxSatisfaction.jpg'><br>
+        we are obsessives, radicals, and revolutionaries.<br>
+        we eat local and direct trade food.<br>
+        we do not support slavery for cheap ingredients.<br>
+        we are artists.<br>
+        we exist<br>
+        to hold people accountable (ourselves included)<br>
+        by not providing the status quo<br>
+        to be responsible and have a really good time<br>
+        to shake things up a bit...well maybe a lot<br>
+        to eat good chocolate
+        a community supported chocolate/confection shop/pop-up bakery. experimental food fellowship.
+        specializing in radical techniques to empower ourselves and those we do business with.
+        using fair/direct trade-post consumer recycled-local materials we aim high in our pursuit,<br>
+        that change is inevitable,<br>
+        it is the type of change we make,<br>
+        that will create space for genius.
+      </p>
+      <h3 id="what">WHAT'S IN YOUR BOX?</h3>
+      <p> 
+        <img src='images/boxOrchids.jpg'>
+        <img src='images/boxHazlenut.jpg'>
+        <img src='images/boxSatisfaction.jpg'><br>
+        we are obsessives, radicals, and revolutionaries.<br>
+        we eat local and direct trade food.<br>
+        we do not support slavery for cheap ingredients.<br>
+        we are artists.<br>
+        we exist<br>
+        to hold people accountable (ourselves included)<br>
+        by not providing the status quo<br>
+        to be responsible and have a really good time<br>
+        to shake things up a bit...well maybe a lot<br>
+        to eat good chocolate
+        a community supported chocolate/confection shop/pop-up bakery. experimental food fellowship.
+        specializing in radical techniques to empower ourselves and those we do business with.
+        using fair/direct trade-post consumer recycled-local materials we aim high in our pursuit,<br>
+        that change is inevitable,<br>
+        it is the type of change we make,<br>
+        that will create space for genius.
+      </p>
+      <h3 id="wanted">WANTED WE ARE</h3>
+      <p> 
+        <img src='images/boxOrchids.jpg'>
+        <img src='images/boxHazlenut.jpg'>
+        <img src='images/boxSatisfaction.jpg'><br>
+        we are obsessives, radicals, and revolutionaries.<br>
+        we eat local and direct trade food.<br>
+        we do not support slavery for cheap ingredients.<br>
+        we are artists.<br>
+        we exist<br>
+        to hold people accountable (ourselves included)<br>
+        by not providing the status quo<br>
+        to be responsible and have a really good time<br>
+        to shake things up a bit...well maybe a lot<br>
+        to eat good chocolate
+        a community supported chocolate/confection shop/pop-up bakery. experimental food fellowship.
+        specializing in radical techniques to empower ourselves and those we do business with.
+        using fair/direct trade-post consumer recycled-local materials we aim high in our pursuit,<br>
+        that change is inevitable,<br>
+        it is the type of change we make,<br>
+        that will create space for genius.
+      </p>
+
+      <h3 id="blog">WE'RE TALKING</h3>
+      <p> 
+        <img src='images/boxOrchids.jpg'>
+        <img src='images/boxHazlenut.jpg'>
+        <img src='images/boxSatisfaction.jpg'><br>
+        we are obsessives, radicals, and revolutionaries.<br>
+        we eat local and direct trade food.<br>
+        we do not support slavery for cheap ingredients.<br>
+        we are artists.<br>
+        we exist<br>
+        to hold people accountable (ourselves included)<br>
+        by not providing the status quo<br>
+        to be responsible and have a really good time<br>
+        to shake things up a bit...well maybe a lot<br>
+        to eat good chocolate
+        a community supported chocolate/confection shop/pop-up bakery. experimental food fellowship.
+        specializing in radical techniques to empower ourselves and those we do business with.
+        using fair/direct trade-post consumer recycled-local materials we aim high in our pursuit,<br>
+        that change is inevitable,<br>
+        it is the type of change we make,<br>
+        that will create space for genius.
+      </p>
+
+    </div>
+
+
+    <footer>
+      <img src="images/scr_logo.png" height="90" width="350">
+      <div id="phone"> 4 0 4 . 4 3 8 . 5 8 5 4</div>
+      <div class='leftFooter'>
+        <div id="address"> 
+          680 Drewry Street<br>
+          atlanta, ga  30306<br>
+        </div>
+        wed-fri 2-6:30pm<br>
+        sat.- 11:30-6:30pm<br>
+        sun.- BAKERY SUNDAY- 9am-4:30pm
+      </div>
+    </footer>
+
+
+
+
+  </body>
+
+</html>
