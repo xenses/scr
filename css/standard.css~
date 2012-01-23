@@ -3,28 +3,83 @@ margin-left:10%;
 margin-right:10%;
 
 }
-header {
-background-color: #66491e;
-color: white;
-min-height: 60px;
-text-align: right;
-padding-right: 2%;
-font-family: 'Abel', sans-serif;
-font-size: 16pt;
-}
-
-article {
+.accordion {
+background-color: #bdbdbd;
 border: none;
-height: 80%;
-width: 60%;
-float: right;
-font-family: 'Anonymous Pro', sans-serif;
+width: 100%;
+font-family: 'Istok Web', sans-serif;
 font-size: 10pt;
 }
-article p {
-color: #66491e;
+
+.accordion p {
+padding: 0;
 
 }
+
+#sugar {
+padding-right: 2%;
+
+}
+
+#who {
+font-family: 'Istok Web', sans-serif;
+font-size: 12pt;
+text-align: left;
+}
+
+.accordion h1 {
+background-color: #f30ec5;
+color: white;
+text-align: left;
+padding-left: 2%;
+font-family: 'Istok Web', sans-serif;
+font-size: 12pt;
+clear:both;
+text-shadow: #666666 2px 2px 2px;
+margin: 0;
+cursor: pointer;
+}
+
+#what {
+background-color: #f38a0e;
+color: white;
+text-align: right;
+padding-right: 2%;
+font-family: 'Istok Web', sans-serif;
+font-size: 12pt;
+clear: both;
+text-shadow: #666666 2px 2px 2px;
+margin: 0;
+cursor: pointer;
+}
+
+#wanted {
+margin: 0;
+background-color: #0ed4d6;
+color: white;
+text-align: right;
+padding-right: 2%;
+font-family: 'Istok Web', sans-serif;
+font-size: 12pt;
+clear: both;
+text-shadow: #666666 2px 2px 2px;
+cursor: pointer;
+}
+
+#blog {
+margin: 0;
+background-color: #76d60e;
+color: white;
+min-height: 20px;
+text-align: right;
+padding-right: 2%;
+font-family: 'Istok Web', sans-serif;
+font-size: 12pt;
+clear: both;
+text-shadow: #666666 2px 2px 2px;
+cursor: pointer;
+}
+
 section {
 border: none;
 font-family: 'Cabin', sans-serif;
@@ -32,12 +87,37 @@ width: 39%;
 }
 
 footer {
-clear: both;
 background-color: #868687;
 color: white;
-min-height: 60px;
+padding-top: 1%;
+padding-right: 2%;
+padding-bottom: 1%;
+font-family: 'Istok Web', sans-serif;
+font-size: 10pt;
+}
+
+footer img {
+width: 25%;
+float: right;
+}
+
+#phone {
+font-size: 20px;
 text-align: right;
 padding-right: 2%;
-font-family: 'Abel', sans-serif;
-font-size: 10pt;
+float: right;
+clear: both;
+text-shadow: #666666 2px 2px 2px;
+}
+
+.leftFooter {
+padding-left: 4%;
+padding-top: 1%;
+font-size: 14px;
+text-shadow: #666666 2px 2px 2px;
+}
+
+#address {
+color: #f38a0e;
+font-size: 16px;
 }
